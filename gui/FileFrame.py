@@ -1,9 +1,7 @@
 from tkinter import Frame, Radiobutton, Text, Button, filedialog, END, BOTTOM, BOTH, LEFT, messagebox, Label, BooleanVar
 from librosa import display as libdisplay
 import audio.audiofile as audiofile
-import matplotlib.pyplot as plt
 import matplotlib
-from gui.AnalysisFrame import AnalysisFrame
 
 matplotlib.use("TkAgg")
 

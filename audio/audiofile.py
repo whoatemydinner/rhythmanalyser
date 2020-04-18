@@ -70,6 +70,12 @@ def get_audiofile():
     return AUDIOFILE, SAMPLERATE
 
 
+def get_samplerate():
+    global SAMPLERATE
+
+    return SAMPLERATE
+
+
 def set_beatmap(beat_map):
     global BEATMAP
 
